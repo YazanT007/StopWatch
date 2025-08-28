@@ -1,4 +1,4 @@
-# Cool looking Stopwatch 🧮
+# Cool looking Stopwatch ⌚
 
 A sleek and simple stopwatch application with a minimalist design and intuitive controls
 
@@ -27,6 +27,6 @@ A sleek and simple stopwatch application with a minimalist design and intuitive 
 
 ## 🚀 Try It Out
 
-👉 [Click here to try the Stopwatch]()  
+👉 [Click here to try the Stopwatch](https://stopwatch-made-by-yazant007.netlify.app/)  
 
 ---
