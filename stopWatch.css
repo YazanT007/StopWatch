@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #020617;
+  background-image:
+    linear-gradient(to right, rgba(71, 85, 105, 0.302) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(71, 85, 105, 0.3) 1px, transparent 1px),
+    radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.15) 0%, transparent 70%);
+  background-size: 62px 62px, 62px 62px, 100% 100%;
+  background-attachment: fixed;
+  font-family: monospace, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.stopwatch {
+  position: relative;
+  margin-top: 10px;
+  background: rgb(2, 6, 23);
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+  padding: 40px 60px;
+  display: inline-block;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  box-shadow: 0 0 20px rgba(39, 160, 197, 0.4);
+}
+
+#timerDisplayed {
+  font-size: 3rem;
+  margin-bottom: 25px;
+  letter-spacing: 3px;
+  transition: transform 0.2s ease;
+}
+
+.running #timerDisplayed {
+  transform: scale(1.05);
+  color: #27a0c5;
+  text-shadow: 0 0 20px #8941fd;
+}
+
+.btn-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btns {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+#startbtn{
+  background: linear-gradient(90deg, #27c527, #1c6814);
+}
+
+#stopbtn{
+  background: linear-gradient(90deg, #c52727, #682114);
+}
+
+#resetbtn{
+  background: linear-gradient(90deg, #276cc5, #143b68);
+}
+
+.btns:hover {
+  transform: scale(1.1);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #27a0c5, #d4a6ff, #8941fd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 3rem;
+}
